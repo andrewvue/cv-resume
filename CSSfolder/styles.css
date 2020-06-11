@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #45046A;
+  background-color: #8FBC8F;
+  font-family: 'Comfortaa', cursive;
+  font-size: .95rem;
+  font-weight: 200;
+  cursor: default;
+}
+
+.circleImage{
+border-radius: 50%;
+}
+
+h1 {
+  font-size: 5.62rem;
+  /* to get percentage we take 100% which is equal to 16px and do a conversion 90px/16px = 5.62 = 562%*/
+  margin: 100px auto 0 auto;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 2;
+  font-weight: bold;
+  padding: 0 auto auto auto;
+  margin: 0 auto auto auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.profile{
+  margin-bottom: 40px;
+}
+.h2skill{
+  margin: 10px auto 0 auto;
+  padding-top: 10px;
+  font-weight: 900;
+}
+
+.h3tech-skill{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.soft-skill-row{
+  margin: 0px auto 40px auto;
+  padding-top: 0px;
+}
+
+.language {
+  margin: 0px auto 20px auto;
+  border: 0;
+}
+.language-row2{
+  margin: 0;
+  border: 0;
+}
+
+.languageLogo {
+  width: 30%;
+  margin: auto auto 0 auto;
+  text-align: center;
+}
+
+.pythonLanguageLogo {
+  line-height: 2;
+  width: 10%;
+  text-align: center;
+}
+
+.top {
+  background-color: #def4f0;
+  text-decoration-color: gray;
+  position: relative;
+  padding-top: 100px;
+  padding: 5px;
+}
+
+.middle-container {
+  background-color: #8FBC8F;
+  color: #4B0082;
+  position: relative;
+  padding-top: 100px;
+  padding: 5px;
+}
+
+.bottom-container {
+  background-color: #def4f0;
+  color: #4B0082;
+  padding: 50px 0 20px;
+  margin: auto;
+}
+
+.hrdots {
+  background-color: none;
+  border-style: dotted none none;
+  border-color: #def4f0;
+  border-width: 0px;
+  height: 0px;
+  width: 10%;
+  margin: 10px auto 10px auto;
+  padding: 10;
+}
+
+a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+.programmer {
+  text-decoration: underline;
+}
+
+.contact-me {
+  margin: auto auto 40px auto;
+}
+
+.btn {
+  background: #127681;
+  background-image: ;
+  -webkit-gradient(top, #127681, #0a97b0);
+  background-image: -webkit-linear-gradient(top, #127681, #0a97b0);
+  background-image: -moz-linear-gradient(top, #127681, #0a97b0);
+  background-image: -ms-linear-gradient(top, #127681, #0a97b0);
+  background-image: -o-linear-gradient(top, #127681, #0a97b0);
+  background-image: linear-gradient(top, #127681, #0a97b0);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Comfortaa', cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px 10px 10px 10px;
+  margin: 200px 10px 50px 10px;
+}
+
+.bth:hover {
+  border: solid #337FED 1px;
+  background: #4B0082;
+  background-image: -webkit-linear-gradient(top, #4B0082, #3D94F6);
+  background-image: -moz-linear-gradient(top, #4B0082, #3D94F6);
+  background-image: -ms-linear-gradient(top, #4B0082, #3D94F6);
+  background-image: -o-linear-gradient(top, #4B0082, #3D94F6);
+  background-image: linear-gradient(to bottom, #4B0082, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  margin: 100px 10px 50px 10px;
+}
+
+a:hover {
+  color: #f6cd61;
+}
+
+.p-contact{
+  margin: auto auto 40px auto;
+}
+
+.skill-row {
+  margin: 10px auto 0px auto;
+  width: 50%;
+  line-height: 2;
+  border: 0 0 0 0;
+}
